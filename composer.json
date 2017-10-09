@@ -1,0 +1,22 @@
+{
+    "name": "mtsvetanoff/get-current-url",
+    "description": "A simple PHP library that returns the current page URL",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Tsvetanoff",
+            "email": "m.tsvetanoff@gmail.com",
+			"homepage": "http://tsvetanoff.com",
+			"role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MTsvetanoff\\GetCurrentURL\\": "src/"
+        }
+    }
+}
